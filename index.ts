@@ -6,7 +6,7 @@ const {
 } = require("touchguild");
 
 const chalk = require("chalk");
-const config = require("./config/config.json");
+const config = require("./config/BotConfig.json");
 const client = new Client({
   token: config.TOKEN,
   intents: [GatewayLayerIntent.ALL],
